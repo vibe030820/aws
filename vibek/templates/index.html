@@ -1,0 +1,67 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>HackeEarth Replica</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+        <div class="logo">
+            <img src="{% static '4.png' %}" alt="Logo" style="height: 40px;width: 40px;">
+            <p>HackerMoon </p>
+        </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="#">Practice</a></li>
+                <li><a href="#">Contests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="context-cards">
+      <div class="context-card">
+          <img src="{% static '1.png' %}" alt="Challenge Icon">
+          <h3> Challenges</h3>
+          <p>Sharpen your coding skills with a variety of challenges covering different programming languages and concepts.</p>
+          <a href="#" class="cta-link">Explore Challenges</a>
+      </div>
+      <div class="context-card">
+          <img src="{% static '2.png' %}" alt="Practice Icon">
+          <h3>Practice</h3>
+          <p>Practice coding problems to improve your problem-solving abilities and become a better developer.</p>
+          <a href="#" class="cta-link">Start Practicing</a>
+      </div>
+      <div class="context-card">
+          <img src="{% static '3.png' %}" alt="Contest Icon">
+          <h3>Contests</h3>
+          <p>Participate in coding contests to compete with others, win prizes, and showcase your talent and excel.</p>
+          <a href="#" class="cta-link">Join Contests</a>
+      </div>
+      <div class="context-card">
+        <img src="{% static '5.png' %}" alt="Challenge Icon">
+        <h3> Upsolve</h3>
+        <p>Solve and learn from completed challenges,Gain some Experience,and get practicised with FAANG companies.</p>
+        <a href="#" class="cta-link">Upsolve</a>
+    </div>
+  </section>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Your Website</h1>
+            <p>Explore coding challenges, contests, and more.</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
